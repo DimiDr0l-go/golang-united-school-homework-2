@@ -14,10 +14,10 @@ import (
 type sidesNumber uint8
 
 const (
-	float64 pi            = math.Pi
-	int     SidesTriangle = 3
-	int     SidesSquare   = 4
-	int     SidesCircle   = 0
+	pi            = math.Pi
+	SidesTriangle = 3
+	SidesSquare   = 4
+	SidesCircle   = 0
 )
 
 func CalcSquare(sideLen float64, sidesNum sidesNumber) float64 {
