@@ -13,7 +13,12 @@ import (
 
 type sidesNumber uint8
 
-const pi = math.Pi
+const (
+	float64 pi            = math.Pi
+	int     SidesTriangle = 3
+	int     SidesSquare   = 4
+	int     SidesCircle   = 0
+)
 
 func CalcSquare(sideLen float64, sidesNum sidesNumber) float64 {
 	switch sidesNum {
